@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+}
+.voltar{
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.733);
+    border:3px solid white;
+    border-radius: 50px;
+    font-size: 20px;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    color: wheat;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: block;
+}
+a.voltar:hover{
+    font-weight: bold;
+    background-color: rgb(241, 0, 0);
+}
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: "Racing Sans One", sans-serif;
+    display: block;
+    padding-left: 40%;
+   
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../img/lava-jato.webp);
+    background-size: cover;
+}   
+.contender{
+    width: 450px;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.685);
+    border: 3px solid rgba(255, 255, 255, 0.582);
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.3) 0px 15px 12px;
+}
+.contender h2{
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 30px;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.25) 0px 18px 36px -18px inset;
+    
+}
+.input-box input::placeholder{
+    color: rgb(173, 173, 173);
+    font-size: 15px;
+    font-family: "Fjalla One", sans-serif;
+}
+.login-bot{
+    width: 100%;
+    height: 50px;
+    margin: 50px 0px 0px 0px;
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 900;
+}
+.login-bot:hover{
+    background: rgba(128, 128, 128, 0.596);
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.25) 0px 18px 36px -18px inset;
+    border: 2px solid white;
+    transition: 0.5s;
+}
