@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+body{
+    background: black;
+    color: white;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: "Racing Sans One", sans-serif;
+    display: block;
+    text-align: center;
+   
+}
+.voltar{
+    text-decoration: none;
+    background-color: rgba(0, 4, 255, 0.733);
+    border:3px solid white;
+    border-radius: 50px;
+    font-size: 20px;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    color: wheat;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: block;
+    font-weight: bold;
+    
+}
+a.voltar:hover{
+ background-color: rgb(157, 157, 157);
+    color: rgb(255, 255, 255);
+    border: rgba(0, 4, 255, 0.733) solid 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.25) 0px 18px 36px -18px inset;
+    font-weight: bold;
+    box-shadow: rgba(255, 255, 255, 0.678) 0px 5px 15px;
+}
+.atalho{text-align: center;
+    background-color: rgba(255, 0, 0, 0.733);
+    border:3px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    font-size: 20px;
+    display: inline-block;
+    width: 10%;
+    padding: 10px;
+    margin: -50px 10px 0px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.25) 0px 18px 36px -18px inset;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+.atalho:hover{
+    background-color: rgb(157, 157, 157);
+    color: rgb(255, 255, 255);
+    border: rgb(255, 0, 0) solid 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.25) 0px 18px 36px -18px inset;
+    font-weight: bold;
+}
+.lob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
