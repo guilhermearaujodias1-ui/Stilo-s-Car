@@ -3,7 +3,10 @@
 body{
     background: black;
     color: white;
+    height: 100%;
+    
 }
+    
 h1{
     color: white;
     font-size: 60px;
@@ -45,7 +48,7 @@ a.voltar:hover{
     display: inline-block;
     width: 10%;
     padding: 10px;
-    margin: -50px 10px 0px 10px;
+    margin: -55px 10px 5px 10px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.25) 0px 18px 36px -18px inset;
@@ -65,4 +68,170 @@ a.voltar:hover{
     justify-content: center;
     align-items: center;
 
+}
+.conteudo1{
+    display: inline-block;
+    position: absolute;
+    right: 400px;
+    top: 130px;
+    transform: scale(0.44);
+    border-radius: 20px;
+    box-shadow: rgb(252, 252, 252) 0px 13px 27px -5px, rgb(255, 255, 255) 0px 8px 16px -8px;
+}
+.texto1{
+    font-size: 20px;
+    background-color: rgba(0, 151, 221, 0.993);
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+    margin: 40px 610px 100px;
+    padding: 0px 10px 20px  20px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.25) 0px 18px 36px -18px inset;
+    display: block;
+
+}
+h2{
+    font-size: 30px;
+    font-family: "Fjalla One", sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    display: inline-block;
+
+}
+.texto1 p{
+    margin: -10px 15px 20px 15px;
+    width: 95%;
+    font-weight: 550;
+    text-indent: 20px;
+}
+.valores1{
+    background: rgba(0, 0, 0, 0.527);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 5px 20px 5px 20px;
+    position: relative;
+    display: inline-block;
+    left: 460px;
+    bottom: -10px;
+    
+ 
+}
+.conteudo2{
+    display: inline-block;
+    position: absolute;
+    right: -170px;
+    top: 715px;
+    transform: scale(0.58);
+    border-radius: 20px;
+    box-shadow: rgb(252, 252, 252) 0px 13px 27px -5px, rgb(255, 255, 255) 0px 8px 16px -8px;
+}
+.valores2{
+    background: rgba(0, 0, 0, 0.527);
+    border: 3px solid rgb(255, 255, 255);
+    padding: 5px 20px 5px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    position: relative;
+    left: 15%;
+    bottom: -10px;
+}
+.texto2{
+    font-size: 20px;
+    background-color: rgba(0, 151, 221, 0.993);
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+    margin: 40px 20px 100px;
+    padding: 0px 10px 20px  20px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.25) 0px 18px 36px -18px inset;
+    display: block;
+
+}
+.texto2 p{
+    margin: -10px 15px 20px 15px;
+    width: 95%;
+    font-weight: 550;
+    text-indent: 20px;
+    
+}
+.conteudo3{
+    display: inline-block;
+    position: absolute;
+    right: 80px;
+    top: 980px;
+    transform: scale(0.294);
+    border-radius: 20px;
+    box-shadow: rgb(252, 252, 252) 0px 13px 27px -5px, rgb(255, 255, 255) 0px 8px 16px -8px;
+}
+.texto3{
+    font-size: 20px;
+    background-color: rgba(0, 151, 221, 0.993);
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+    margin: 40px 610px 100px;
+    padding: 0px 10px 20px  20px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.25) 0px 18px 36px -18px inset;
+    display: block;
+
+}
+.valores3{
+    background: rgba(0, 0, 0, 0.527);
+    border: 3px solid rgb(255, 255, 255);
+    padding: 5px 20px 5px 20px;
+    border-radius: 30px;
+    position: relative;
+    display: inline-block;
+    left: 460px;
+    bottom: -10px;
+    
+ 
+}
+.texto3 p{
+    margin: -10px 15px 20px 15px;
+    width: 95%;
+    font-weight: 550;
+    text-indent: 20px;
+}
+.conteudo4{
+    display: inline-block;
+    position: absolute;
+    right: -130px;
+    top: 1760px;
+    transform: scale(0.58);
+    border-radius: 20px;
+    box-shadow: rgb(252, 252, 252) 0px 13px 27px -5px, rgb(255, 255, 255) 0px 8px 16px -8px;
+}
+.texto4{
+    font-size: 20px;
+    background-color: rgba(0, 151, 221, 0.993);
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+    margin: 40px 20px 100px;
+    padding: 0px 10px 20px  20px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.25) 0px 18px 36px -18px inset;
+    display: block;
+
+}
+.valores4{
+    background: rgba(0, 0, 0, 0.527);
+    border: 3px solid rgb(255, 255, 255);
+    padding: 5px 20px 5px 20px;
+    border-radius: 30px;
+    position: relative;
+    display: inline-block;
+    left: 460px;
+    bottom: -10px;
+    max-width: 460px;
+    
+ 
 }
