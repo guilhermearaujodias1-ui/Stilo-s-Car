@@ -1,68 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Racing+Sans+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+/* Reset básico profissional */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background: black;
 }
+
+/* Título */
 h1{
     color: white;
     font-size: 60px;
     font-family: "Racing Sans One", sans-serif;
-    display: block;
-   text-align: center;
-   
+    text-align: center;
+    margin-top: 20px;
 }
+
+/* Container dos atalhos */
 .lob{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    gap: 20px; /* substitui margin negativa */
+    margin-top: 30px;
+    flex-wrap: wrap; /* evita quebrar no celular */
 }
-.atalho{text-align: center;
+
+/* Atalhos */
+.atalho{
     background-color: rgba(255, 0, 0, 0.733);
-    border:3px solid rgb(255, 255, 255);
+    border:3px solid white;
     border-radius: 50px;
-    font-size: 20px;
-    display: inline-block;
-    width: 10%;
-    padding: 10px;
-    margin: -50px 10px 0px 10px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.25) 0px 18px 36px -18px inset;
-    font-weight: bold;
-    transition: 0.3s;
+    margin-top: -80px;
+    width: 150px; /* largura fixa */
+    padding: 12px;
 
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+    transition: 0.3s ease;
 }
+
 .atalho:hover{
     background-color: rgb(157, 157, 157);
-    color: rgb(255, 255, 255);
-    border: rgb(255, 0, 0) solid 3px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.25) 0px 18px 36px -18px inset;
-    font-weight: bold;
+    border: 3px solid red;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
 }
+
+/* Botão WhatsApp */
 .botao-whats{
-    text-decoration: none;
-    font-size: 20px;
-    display: inline-block;
     position: fixed;
-    right: 10px;
-    bottom: 10px;
+    right: 20px;
+    bottom: 20px;
+
+    width: 160px; /* largura fixa */
+    padding: 12px;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
     color: white;
     background-color: hsl(120, 100%, 44%);
-    display: inline-block;
-    width: 10%;
-    padding: 15px 0px;
-    font-size: 20px;
-    text-align: center;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 50px; 
-    font-weight: bold;
+    border: 3px solid white;
+    border-radius: 50px;
+
+    transition: 0.3s ease;
 }
+
 .botao-whats:hover{
     background-color: hsl(120, 100%, 50%);
-    color: rgb(255, 255, 255);
-    border: 3px solid rgb(255, 0, 0);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.25) 0px 18px 36px -18px inset;
-    font-weight: bold;
-    transition: 0.4s;
+    border: 3px solid red;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
 }
