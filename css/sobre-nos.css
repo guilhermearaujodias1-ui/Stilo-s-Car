@@ -42,21 +42,22 @@ a.voltar:hover{
     font-weight: bold;
     box-shadow: rgba(255, 255, 255, 0.678) 0px 5px 15px;
 }
-.atalho{text-align: center;
-    background-color: rgba(255, 0, 0, 0.733);
-    border:3px solid rgb(255, 255, 255);
-    border-radius: 50px;
-    font-size: 20px;
-    display: inline-block;
-    width: 10%;
-    padding: 10px;
-    margin: -45px 20px 10px 0px;
+.atalho{
+    width: 160px; /* largura fixa */
+    padding: 12px;
+    margin-top: -80px;
+    text-align: center;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.25) 0px 18px 36px -18px inset;
-    font-weight: bold;
-    transition: 0.3s;
 
+    background-color: rgba(255, 0, 0, 0.8);
+    border: 3px solid white;
+    border-radius: 50px;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+    transition: 0.3s ease;
 }
 .atalho:hover{
     background-color: rgb(157, 157, 157);
