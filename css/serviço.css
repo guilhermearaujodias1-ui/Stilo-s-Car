@@ -1,20 +1,17 @@
-/* ===== IMPORTAÇÃO DE FONTES ===== */
+
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Racing+Sans+One&display=swap');
 
-/* ===== RESET ===== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ===== BODY ===== */
 body {
     background-color: #000;
     color: white;
 }
 
-/* ===== TÍTULO ===== */
 h1 {
     font-size: 60px;
     font-family: "Racing Sans One", sans-serif;
@@ -22,26 +19,20 @@ h1 {
     margin-top: 20px;
 }
 
-/* ===== BOTÃO VOLTAR ===== */
 .voltar {
     position: fixed;
     right: 20px;
     bottom: 20px;
-
-    width: 160px; /* largura fixa */
+    width: 160px;
     padding: 10px;
-
     text-align: center;
     text-decoration: none;
-
     background-color: rgba(0, 4, 255, 0.8);
     border: 3px solid white;
     border-radius: 50px;
-
     color: wheat;
     font-size: 18px;
     font-weight: bold;
-
     transition: 0.3s ease;
 }
 
@@ -51,7 +42,6 @@ h1 {
     box-shadow: 0px 5px 15px rgba(255,255,255,0.6);
 }
 
-/* ===== CONTAINER ATALHOS ===== */
 .lob {
     display: flex;
     justify-content: center;
@@ -61,22 +51,18 @@ h1 {
     margin-top: 30px;
 }
 
-/* ===== ATALHOS ===== */
 .atalho {
-    width: 160px; /* largura fixa */
+    width: 160px;
     padding: 12px;
     margin-top: -80px;
     text-align: center;
     text-decoration: none;
-
     background-color: rgba(255, 0, 0, 0.8);
     border: 3px solid white;
-    border-radius: 50px;
-
+    border-radius: 50px;  
     font-size: 18px;
     font-weight: bold;
     color: white;
-
     transition: 0.3s ease;
 }
 
@@ -86,59 +72,54 @@ h1 {
     box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
 }
 
-/* ===== IMAGENS (UNIFICADO) ===== */
-.conteudo1,
-.conteudo2,
-.conteudo3,
-.conteudo4 {
+.conteudo {
     display: block;
     margin: 20px auto;
     max-width: 95%;
     border-radius: 20px;
     box-shadow: rgb(252, 252, 252) 0px 13px 27px -5px;
 }
-
-/* ===== TEXTOS (UNIFICADO) ===== */
-.texto1,
-.texto2,
-.texto3,
-.texto4 {
+.caixa {
     font-size: 20px;
     background-color: rgba(0, 151, 221, 0.95);
     width: 90%;
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
-
     border: 3px solid red;
     border-radius: 20px;
 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset;
 }
 
-/* ===== SUBTÍTULOS ===== */
 h2 {
     font-size: 30px;
     font-family: "Fjalla One", sans-serif;
     letter-spacing: 2px;
+    margin: 20px 0px 5px;
 }
 
-/* ===== PARÁGRAFOS ===== */
 p {
     margin-bottom: 20px;
     font-weight: 550;
     text-indent: 20px;
 }
 
-/* ===== CAIXAS DE VALORES ===== */
-.valores1,
-.valores2,
-.valores3,
-.valores4 {
+.valores {
     background: rgba(0, 0, 0, 0.6);
     border: 3px solid white;
     border-radius: 30px;
     padding: 8px 20px;
     display: table;
     margin: 15px auto;
+}
+.conteudo-for{
+    display: block;
+    margin: -50px 0px -100px;
+    width: 800px;
+    height: 500px;
+    max-width: 95%;
+    border-radius: 20px;
+    box-shadow: rgb(252, 252, 252) 0px 13px 27px -5px;
+    transform: scale(0.7);
 }
