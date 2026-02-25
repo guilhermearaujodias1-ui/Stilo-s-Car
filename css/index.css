@@ -91,11 +91,11 @@ h1 {
     transition: 0.3s;
 }
 .dados2 {
-    display: block; /* Garante que ele se comporte como bloco para a margem funcionar */
+    display: block;
     position: relative;
     max-width: 400px;
     min-width: 320px;
-    margin: 30px 20px 30px auto; /* O 'auto' na esquerda joga o elemento para a direita */
+    margin: 30px 20px 30px auto;
     border-radius: 20px;
 }
 .dados2:hover{
@@ -103,3 +103,46 @@ h1 {
     transform: scale(1.05);
     transition: 0.3s;
 }
+
+.container-foto, .container-foto-direita {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+}
+
+
+.container-foto-direita {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.legenda, .legenda-direita {
+    position: absolute;
+    bottom: 50px;
+    background-color: rgba(0, 204, 255, 0.8);
+    color: white;
+    padding: 8px 15px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.2rem;
+    border-radius: 0 10px 10px 0;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.legenda {
+    left: 30px; 
+}
+
+.legenda-direita {
+    right: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+.container-foto:hover .legenda, 
+.container-foto-direita:hover .legenda-direita {
+    background-color: white;
+    color: red;
+    transform: scale(1.1);
+}
+
