@@ -145,4 +145,21 @@ h1 {
     color: red;
     transform: scale(1.1);
 }
+.contexto1 {
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: -10px 30px  auto;
+    text-align: left;
+}
+.contexto2 {
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0px 30px 0px auto; 
+    text-align: right; 
+}
+
 
