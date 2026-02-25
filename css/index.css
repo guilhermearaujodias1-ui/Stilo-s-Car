@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 800px auto;
+    
 }
 
 body{
@@ -80,4 +82,31 @@ h1{
     background-color: hsl(120, 100%, 50%);
     border: 3px solid red;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.4);
+}
+.dados {
+    max-width: 400px;
+    min-width: 320px;
+    margin: 30px ;
+    border-radius: 20px;
+    
+}
+.dados:hover{
+    box-shadow: 0px 5px 15px rgb(255, 255, 255);
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.dados2 {
+    display: inline-block ;
+    position: relative;
+    max-width: 400px;
+    min-width: 320px;
+    margin: 30px ;
+    border-radius: 20px;
+    left: 50%;
+    
+}
+.dados2:hover{
+    box-shadow: 0px 5px 15px rgb(255, 255, 255);
+    transform: scale(1.05);
+    transition: 0.3s;
 }
