@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 100% auto;
-    
 }
 
 body{
@@ -14,14 +13,14 @@ body{
 }
 
 /* Título */
-h1{
+h1 {
     color: white;
     font-size: 60px;
     font-family: "Racing Sans One", sans-serif;
-    text-align: center auto;
-    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
-
 /* Container dos atalhos */
 .lob{
     display: flex;
