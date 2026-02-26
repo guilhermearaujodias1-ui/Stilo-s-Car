@@ -146,10 +146,7 @@ h1 {
     margin: -10px 30px auto;
     text-align: left;
 }
-.container-social {
-    margin-left: 50px;
-    display: inline-block;
-}
+
 
 .facebook {
     display: flex;
@@ -159,6 +156,10 @@ h1 {
     font-family: "Fjalla One", sans-serif;
     color: #ffffff; 
     font-weight: bold;
+}
+.container-social {
+    margin-left: 50px;
+    display: inline-block;
 }
 .container-social a :hover {
     transform: scale(1.1);
@@ -176,4 +177,23 @@ h1 {
     font-weight: bold;
     margin:20px 30px ;
     text-decoration: none;
+}
+.botao-whats1 {
+    width: 160px;
+    margin: -70px 0px 10px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: hsl(120, 100%, 44%);
+    border: 3px solid white;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.botao-whats1:hover {
+    background-color: hsl(120, 100%, 50%);
+    border: 3px solid red;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.861);
 }
