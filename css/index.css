@@ -151,7 +151,7 @@ h1 {
     display: inline-block;
 }
 
-.fecebook {
+.facebook {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -166,4 +166,14 @@ h1 {
     text-decoration: underline;
     margin-bottom: 10px;
     box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.423);
+}
+.criador {
+    display: flex;
+    align-items: center;
+    gap: 10px;      
+    font-family: "Fjalla One", sans-serif;
+    color: #ffffff; 
+    font-weight: bold;
+    margin:20px 30px ;
+    text-decoration: none;
 }
